@@ -1,0 +1,150 @@
+/* 有圖版 */
+
+/* 討論版的小box */
+#search_result_board {
+	width: 900px;
+	min-height: 751px;
+	margin-left: 18px;
+	//margin-right: auto;
+}
+.board_block {
+    border-radius: 3px;
+	float: left;
+	width: 318px; //250px;
+	height: 123px;
+	padding: 3px;
+	margin: 5px;
+	//border-radius: 5px 5px 5px 5px;
+	background-color: #FFFFFF;
+	border: 1px solid #C1C1C1;
+	//box-shadow: 0px 0px 2px 2px #D8D5D0;
+	overflow: hidden;
+	position: relative;
+}
+.panel .board_block {
+    margin: 5px;
+}
+#search_result_board .board_block {
+    margin: 10px 0px 10px 40px;
+}
+.board_title h1 {
+	padding-top: 4px;
+	padding-bottom: 7px; 
+}
+.hot-board-pic {
+    border-radius: 3px;
+	float: left;
+	border: 1px solid #C1C1C1;
+	height: 121px;
+	width: 111px;
+	padding: 0px;
+}
+.board_type_title {
+	font-size: 120%;
+	color: #CC0000;
+	clear: left;
+	padding: 7px 0px 5px 0px;
+}
+.board_title {
+	max-width: 195px;
+	height: 105px;
+	overflow: hidden;
+	float: left;
+	margin-left: 5px;
+}
+.board_block a {
+	//float: left;
+}
+.board_block h1 {
+	width: 200px;
+	font-size: 135%;
+	margin: auto;
+	color: #333333;
+	text-align: center;
+}
+.board_block p {
+	font-size: 89%;
+	padding: 0;
+	margin: 0;
+	color: #333333;
+}
+.board_popular_level {
+	float: right;
+	font-size: 90%;
+	color: #333333;
+}
+
+/* 沒圖版 */
+#board_panel {
+	width: 900px;
+	//overflow: hidden;
+	margin: auto;
+	padding-bottom: 100px;
+}
+
+.board_type_title {
+	font-size: 120%;
+	color: #000000;
+	clear: left;
+	padding: 7px 0px 5px 0px;
+}
+.board {
+	background-color: #FFFFFF;
+	width: 210px;
+	height: 180px;
+	float: left;
+	margin: 5px;
+	overflow: hidden;
+	border: 1px solid #E1E1E1;
+}
+.board-name-wrapper {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 210px; 
+	height: 40px;
+	//background-color: #2980B9;
+	border: 1px solid #E1E1E1;
+	//margin: 4px 4px 0px 4px; 
+}
+.board-name {
+	font-size: 22px;
+	color: #FFFFFF;
+	margin: 0px;
+}
+.board-describe-wrapper {
+	margin: 0px 10px 0px 10px;
+	width: 190px;
+	height: 100px;
+	overflow: hidden;
+}
+.board-description {
+	color: #333333;
+	font-size: 14px;
+}
+.board-info {
+	margin: 0px 10px 0px 10px;
+	padding: 10px 0px 0px 0px;
+	vertical-align: middle;
+	list-style-type: none !important;
+ 	border-top: 1px dotted #CCCCCC;
+	font-size: 13px;
+	color: #666666 !important;
+}
+.board-info .float-left-info{
+	font-size: 13px;
+	float: left;
+}
+.board-info .float-right-info{
+	font-size: 13px;
+	float: right;
+	margin-left: 4px;
+}
+.board-info .like-count {
+	padding-left: 0px;
+	vertical-align: top;
+}
+.board-info .like-icon {
+	height: 10px;
+	width: 10px;
+}

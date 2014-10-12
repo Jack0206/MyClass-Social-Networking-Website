@@ -1,0 +1,44 @@
+/* 關於頁面 */
+#about_panel {
+	width: 500px;
+	margin: auto;
+}
+.about_block {
+	border-radius: 2px;
+	border: 1px solid #D8D5D0;
+	margin-bottom: 20px;
+	z-index: 2;
+	background-color: #FFFFFF;
+}
+.about_block form .submit-button, .about_block form .cancel-button, .about_block form .hidden-button {
+	float: right;
+	position: relative;
+	top: -35px;
+	left: -4px;
+	display: none;
+	margin-left: 4px;
+	//background-color: #f5f5f5 !important;
+	//border: 1px solid #dcdcdc !important;
+	//color: #444 !important;
+}
+.about_block h1 {
+	font-size: 110%;
+	margin: 10px;
+}
+.p_wrapper {
+	width: 93%;
+}
+.about_block p {
+	margin: 15px 10px 15px 10px;
+}
+#about_panel textarea {
+	margin: 2px 10px 10px 10px;
+	width: 83%;
+}
+.about_block table {
+	margin: 5px 7px 5px 7px;
+}
+.entry_title {
+	color: #999; //#b6b6ae;
+	width: 200px;
+}

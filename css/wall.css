@@ -1,0 +1,219 @@
+/* 動態牆頁面 */
+#wall_panel {
+	width: 520px;
+	margin: auto;
+}
+#wall_panel .control_panel {
+    margin: 0 0px 30px 73px;
+}
+.timeline_wrapper {
+	overflow: hidden;
+	min-height: 20px;
+	//padding: 5px;
+	margin-bottom: 6px;
+	clear: right;
+}
+.moment_wrapper {
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.moment_content_wrapper {
+    cursor: pointer;
+    float: right;
+	overflow: hidden;
+	min-height: 90px;
+}
+.date_line_title {
+	font-size: 110%;
+	font-weight: bold;
+	margin: 0;
+	width: 80px;
+	float: left;
+	text-align: center;
+}
+.moment_author {
+    font-size: 12px;
+	font-weight: bold;
+    margin-bottom: 2px;
+}
+.time_title {
+    color: #999999;
+	font-size: 12px;
+	margin: 0 0 5px 0;
+	font-weight: bold;
+}
+.wall_poster_pic {
+	height: 64px;
+	width: 64px;
+	float: left;
+	//border-radius: 3px;
+	//border: 4px solid #FFFFFF;
+}
+.wall_poster_pic img {
+    border: 1px solid #EEEEEE;
+	height: 60px;
+	width: 60px;
+}
+.moment_content {
+	border-radius: 2px;
+	float: left;
+	width: 430px;
+	//min-height: 53px;
+	//margin: 4px 0px 5px 10px;
+	padding: 8px;
+	border: 1px solid #D8D5D0;
+	background-color: #FFFFFF;
+}
+.moment_response {
+    width: 438px;
+    background: #F4F4F4;
+	padding: 4px;
+	overflow: auto;
+	clear: left;
+	border-left: 1px solid #D8D5D0;
+	border-right: 1px solid #D8D5D0;
+	border-bottom: 1px solid #D8D5D0;
+}
+.moment_response div {
+    width: 390px;
+	margin-left: 5px;
+	float: left;
+	position: relative; /* for all red buttons in moment_response*/
+}
+.moment_content p {
+	margin: 0;
+}
+.moment_content #gallery {
+	overflow: auto;
+	margin-top: 8px;
+}
+.moment_content #gallery img {
+    width: 138px;
+    height: 138px;
+    padding-top: 5px;
+	padding-right: 5px;
+}
+.moment_content #gallery a {
+	float: left;
+}
+.moment_post {
+	overflow: hidden;
+	position: relative;
+	//min-height: 55px;
+}
+.moment_post form .cancel-button, .moment_post form .hidden-button {
+	float: right;			/* 沒有gallery時moment_post裡的"編輯" "取消"button */
+	margin: 7px 110px 0 4px;
+
+	//background-color: #f5f5f5 !important; /* firefox不work */
+	//border: 1px solid #dcdcdc !important;
+	//color: #444 !important;
+//	font-weight: normal;
+}
+.moment_post form .submit-button , .moment_post form .delete-button {
+	float: right;			/* 沒有gallery時moment_post裡的"提交" "刪除"button */
+	margin: 7px 0px 0 4px;	
+
+	//background-color: #f5f5f5 !important;
+	//border: 1px solid #dcdcdc !important;
+	//color: #444 !important;
+//	font-weight: normal;
+}
+.moment_post #gallery form .cancel-button, .moment_post #gallery form .hidden-button {
+	float: right;			/* 有gallery時moment_post裡的"編輯" "取消"button */
+	margin: 40px 110px 0 4px;
+
+	//background-color: #f5f5f5 !important;
+	//border: 1px solid #dcdcdc !important;
+	//color: #444 !important;
+//	font-weight: normal;
+}
+.moment_post #gallery form .submit-button, .moment_post #gallery form .delete-button {
+	float: right;			/* 有gallery時moment_post裡的"提交" "刪除"button */
+	margin: 40px 0px 0 4px;	
+
+	//background-color: #f5f5f5 !important;
+	//border: 1px solid #dcdcdc !important;
+	//color: #444 !important;
+//	font-weight: normal;
+}
+.moment_post p {
+    margin-top: 3px;
+    font-size: 14px;
+}
+.moment_content textarea {
+	margin-left: 0px;
+	//width: 600px;
+}
+.moment_response p {
+    line-height: 18px;
+	margin: 0;
+	font-size: 12px;
+}
+.moment_response div a {
+    line-height: 18px;
+    font-weight: bold;
+	font-size: 12px;
+	margin-right: 5px;
+	float: left;
+}
+.moment_response img {
+ 	width:36px;
+	height:36px;
+	border-radius: 2px;
+	float: left;
+}
+.moment_content hr {
+	width: 100% !important;
+	float: left !important;
+	margin: 7px 0 5px 0;
+}
+ .date {
+    line-height: 18px;
+    width: 100px;
+    float: left;
+    display: inline;
+    color: #acacac;
+    font-size: 12px;
+}
+.moment_response form .submit-button, .moment_response form .cancel-button, .moment_response form .hidden-button, .moment_response form .delete-button {
+	margin: 0 0 0 4px;
+	float: right;
+	//background-color: #f5f5f5;
+	//border: 1px solid #dcdcdc;
+	//color: #444;
+//	font-weight: normal;
+}
+.moment_post textarea {
+	width: 725px;
+	margin-bottom: 5px;
+}
+.moment_response textarea {
+	width: 661px;
+	margin-bottom: 5px;
+}
+
+.post-action-bar .facebook-like {
+    padding-left: 5px;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+.post-action-bar .bookmark {
+	width: 22px;
+	height: 20px;
+	opacity: 0.5;
+	vertical-align: middle;
+}
+.post-action-bar .count {
+	vertical-align: middle;
+}
+.post-action-bar {
+	font-size: 13px;
+	color: #666666 !important;
+    margin: 5px 5px 0px 0px;
+	//display: table-cell;
+	//top:117px; 
+	//right: 5px;
+	float:right;
+}

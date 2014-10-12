@@ -1,0 +1,165 @@
+@charset "utf-8";
+.flexible {
+	margin-bottom: 10px;
+}
+.label-explan {
+	font-size: 90%;
+	color: #999999;
+	line-height: 10px;
+}
+.text-field-word {
+	font-size: 90%;
+	vertical-align: middle;
+}
+.text-field-explan {
+	font-size: 90%;
+	color: #999999;
+	vertical-align: middle;
+}
+form .same-line {
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+form label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+form legend {
+	display: none;
+}
+form .check-type {
+	height: 18px !important;
+}
+form .block {
+	overflow: hidden;
+	margin: 10px 0px 15px 0px;
+}
+#submit-create-group {
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 20px 200px 50px 0px;
+}
+#create-group-form-wrapper {
+	width: 450px;
+	margin: 50px auto 50px auto;
+}
+#create-group-form .describe-label {
+	display: block;
+}
+#create-group-form .checkbox-label {
+	padding-right: 5px;
+}
+#create-group-form .row {
+	height: 60px;
+}
+#create-group-form textarea {
+	resize: none;
+	margin: 0px;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 4px;
+	color: #666666;
+	border: 1px solid #d0d5cb;
+}
+#logIn-form .describe-label {
+	display: block;
+}
+#logIn-form .row {
+	height: 70px;
+}
+#log-in-form-wrapper {
+	float: right;
+	width: 250px;
+    background: none repeat scroll 0 0 #F1F1F1;
+    border: 1px solid #E5E5E5;
+    margin: 120px 150px 20px 40px;
+    padding: 10px 30px 20px 30px;
+}
+#logIn-form .submit-button {
+	float: left;
+}
+#register-form .submit-button {
+	float: left;
+	margin-left: 170px;
+}
+#register-form-wrapper {
+	width: 800px;
+	margin-left: 500px;
+}
+#register-form .row {
+	height: 40px;
+}
+#register-form .describe-label {
+	text-align: left;
+	width: 130px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.form-wrapper h1 {
+	font-size: 130%;
+	color: #777777;
+}
+form input.error, form select.error, form textarea.error{
+	border: 1px solid #DD4B39 !important;
+}
+form label.error {
+	color: #DD4B39;
+	font-size: 85%;
+	margin: 0px 0px 0px 6px;
+}
+form .info-msg {
+	display: none;
+	color: #999999;
+	font-size: 85%;
+	margin: 0px 0px 0px 6px;
+}
+form input {
+	padding: 0px 0px 0px 6px;
+	font-size: 15px;
+	border-radius: 4px;
+	height: 28px;
+	color: #666666;
+	border: 1px solid #d0d5cb;
+	vertical-align: middle;
+}
+form select {
+	background-color: #FFFFFF;
+	font-size: 15px;
+	border-radius: 4px;
+	height: 32px;
+	color: #666666;
+	border: 1px solid #d0d5cb;
+	vertical-align: middle;
+	padding: 0.4em;
+	//background: #FFFFFF;
+}
+form select:disabled {
+	background-color: #CCCCCC;
+	font-size: 15px;
+	border-radius: 4px;
+	height: 32px;
+	color: #666666;
+	border: 1px solid #d0d5cb;
+	vertical-align: middle;
+	padding: 0.4em;
+	//background: #FFFFFF;
+}
+form .checkbox-label, form .radio-label {
+	vertical-align: middle;
+}
+form .submit-button, form .cancel-button, form .hidden-button, form .delete-button {
+	//background-color: #D14836;
+	//background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
+	//border: 1px solid transparent;
+	//color: #FFFFFF;
+	//border-radius: 2px;
+	//font-size: 14px;
+	//font-weight: bold;
+	height: 30px;
+	padding: 4px 12px 4px 12px;
+	font-size: 95%;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}

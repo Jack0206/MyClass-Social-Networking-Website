@@ -1,0 +1,66 @@
+/* 相簿頁面 */
+#album_panel {
+	width: 900px;
+	margin: auto;
+}
+.album {
+    border-radius: 3px;
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 220px;
+	float: left;
+	margin: 10px 0px 10px 20px;
+	overflow: hidden;
+	border: 1px solid #C1C1C1;
+}
+.album-image {
+    border-radius: 3px;
+	width: 190px; 
+	height: 150px; 
+	display: block;
+	border: 1px solid #C1C1C1;
+	margin: 4px 4px 0px 4px; 
+	//width: 200px; 
+	//height: 160px; 
+}
+.album-headline {
+    color: #000000;//#686E77;
+    font-size: 15px;
+    font-weight: bold;
+	text-align: center;
+	margin: 7px 0px 0px 0px;
+}
+.album-headline-wrapper {
+	width: 200px;
+	height: 32px;
+	overflow: hidden;
+}
+.album-info-wrapper {
+	width: 200px;
+	height: 32px;
+	overflow: hidden;
+}
+.album-info {
+	margin: 0px 10px 0px 10px;
+	padding: 8px 0px 0px 0px;
+	vertical-align: middle;
+	list-style-type: none !important;
+ 	border-top: 1px dotted #CCCCCC;
+	font-size: 12px;
+	color: #666666 !important;
+}
+.album-info .contents{
+	float: left;
+}
+.album-info .like{
+	float: right;
+	margin-left: 4px;
+	//margin-right: 4px;
+}
+.album-info .like-count {
+	padding-left: 0px;
+	vertical-align: top;
+}
+.album-info li {
+	display: table-cell;
+}

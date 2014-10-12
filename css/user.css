@@ -1,0 +1,158 @@
+/* 使用者首頁 */
+#search_result_user {
+	width: 900px;
+	min-height: 751px;
+	margin-left: 28px;
+	//margin-right: auto;
+}
+#user_background {
+	//box-shadow: 2px 0px 2px 0px #D8D5D0;
+    position: relative;
+    //top: 10px;
+    width: 1000px;
+    height: 340px;
+    margin: auto;
+}
+.user_back_img_block {
+    float: left;
+    height: 170px;
+    //width: 200px;
+    overflow: hidden;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+.user_back_img_block img {
+    height: 170px;
+    //width: 200px;
+    //border: 1px solid #777777;
+    opacity: 0.8;
+}
+.boy_user_background {
+	background-color: #3c97ad;
+	height: 185px;
+}
+#girl_user_background {
+	background-color: #e88ea2;
+	height: 185px;
+}
+#user_profile_block {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: #FFFFFF;
+	width: 152px;
+	height: 190px;
+	position: absolute;
+	left: 30px;
+	top: 200px;
+	margin-right: 0px;
+	padding: 0px;
+}
+.user_profile_img {
+    margin: 5px 5px 2px 5px;
+	width: 140px;
+	height: 140px;
+	border: 1px solid #C1C1C1;
+	border-radius: 5px;
+}
+.user_profile_text {
+    text-align: center;
+    color: #444444;
+}
+#panel_continer {
+    min-height: 600px;
+    overflow: hidden;
+	width: 1000px;
+	margin: auto;
+    background-color: #F6F6F6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+/* 朋友 panel */
+#friend_panel {
+	width: 830px;
+	margin: auto;
+}
+.user {
+    border-radius: 3px;
+	background-color: #FFFFFF;
+	width: 140px;
+	height: 171px;
+	float: left;
+	//margin: 10px 0px 10px 20px;
+	overflow: hidden;
+	border: 1px solid #C1C1C1;
+}
+.panel .user {
+    margin: 10px 0px 10px 20px;
+}
+#search_result_user .user {
+    margin: 10px 0px 10px 30px;
+}
+.user-image {
+    border-radius: 3px;
+	width: 132px; 
+	height: 111px; 
+	display: block;
+	border: 1px solid #C1C1C1;
+	margin: 3px 3px 0px 3px; 
+}
+.user-name {
+    color: #222222;//#686E77;
+    font-size: 14px;
+    font-weight: bold;
+	text-align: center;
+	margin: 2px 0px 0px 0px;
+}
+.user-name-wrapper {
+	height: 21px;
+	overflow: hidden;
+}
+.user-info {
+	overflow: hidden;
+	margin: 0px 7px 0px 7px;
+	padding: 0px 0px 0px 0px;
+ 	//border-top: 1px dotted #CCCCCC;
+	font-size: 12px;
+	color: #666666 !important;
+}
+.user-info .user-location {
+	//float: right;
+	padding-left: 5px;
+}
+.user-info .gender-icon {
+	//float: right;
+	width: 11px;
+	height: 11px;
+	opacity: 0.8;
+	vertical-align: middle;
+}
+.user-action-bar {
+    margin-top: 1px;
+}
+.user-action-bar .action {
+	width: 20px;
+	height: 20px;
+	opacity: 0.7;
+    float: right;
+    margin-top: 0px;
+}
+.user-action-bar .status {
+    float: right;
+    text-align: center;
+	border-radius: 3px;
+	//position: relative;
+	//top: 0px;
+	font-size: 12px;
+	padding: 1px 2px 1px 2px;
+    margin-right: 2px;
+	background-color: #666666;
+	//vertical-align: middle;
+	color: #FFFFFF;
+}
+.user-action-bar .bookmark {
+	float: right;
+	width: 19px;
+	height: 15px;
+    opacity: 0.5;
+	margin: 2px 4px 0px 4px;
+}

@@ -1,0 +1,172 @@
+/* 活動頁面 */
+#search_result_event {
+	width: 900px;
+	min-height: 751px;
+	margin-left: 20px;
+	//margin-right: auto;
+}
+#event_panel {
+	width: 600px;
+	margin: auto;
+}
+.no_event_title {
+    color: #888888;
+    line-height: 125px;
+    text-align: center;
+    margin: 10px 0px 10px 5px;
+    border-radius: 3px;
+	//float: left;
+	width: 385px;
+	height: 132px;
+	border: 1px dashed #C1C1C1;
+}
+.load_more {
+    background-image: linear-gradient(#E3262E, #AB171E);
+    border: 1px solid #990A0F;
+    //background: linear-gradient(#FFFFFF, #F2F2F2) repeat scroll 0 0 #FFFFFF;
+    //border: 1px solid #CCCCCC;
+    background-image: linear-gradient(#6699CC, #336699);
+    border: 1px solid #336699;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 3px 10px 3px 10px;
+    font-size: 12px;
+    margin: 20px 10px 0px 8px;
+}
+.monthly_event_wrapper {
+	margin: 10px 0px 10px 0px;
+}
+.monthly_event_title {
+    display: inline-block;
+	//float:left;
+	font-size: 85%;
+    border-radius: 3px;
+    color: #FFFFFF;
+	font-weight: bold;
+    background-color: #AAAAAA;
+	margin: 0px 0px 10px 8px;
+    padding: 3px 15px 3px 15px;
+}
+.monthly_events {
+	overflow: hidden;
+}
+#event_panel .setting_panel {
+	margin-left: 110px;	
+}
+#event_panel .add_search_button {
+	float: left;
+}
+#event_panel hr {
+	border: dashed #b6b6ae; //#4096ab;
+	border-width: 1px;
+	width: 87%;
+	float: right;
+}
+
+/* 活動小box */
+.event_block {
+    border-radius: 3px;
+	float: left;
+	width: 385px;//250px;
+	height: 132px;
+	padding: 3px;
+	//margin: 5px;
+	border: 1px solid #C1C1C1;
+	//border-radius: 5px 5px 5px 5px;
+	background-color: #FFFFFF;
+	//box-shadow: 0px 0px 2px 2px #D8D5D0;
+	//border: 1px solid #E1E1E1;
+	overflow: hidden;
+	position: relative;
+}
+.panel .event_block {
+    margin: 10px 0px 10px 5px;
+}
+#search_result_event .event_block {
+    margin: 10px 0px 10px 38px;
+}
+.event_title {
+	margin-bottom: 2px;
+	//display: inline;
+	width: 257px;
+	height: 62px;
+	overflow: hidden;
+	float: left;
+}
+.event-pic {
+    border-radius: 3px;
+	height: 130px;
+	width: 120px;
+	border: 1px solid #C1C1C1;
+	float: left;
+	margin: 0px 5px 0px 0px; 
+}
+.event-type {
+	border-radius: 2px 2px 2px 2px;
+	color: #FFFFFF;
+	float: right;
+	font-size: 13px;
+	//text-align: center;
+	padding: 2px 5px 2px 5px;//5px 7px 5px 7px;
+}
+.event-headline {
+	//float: left;
+	//padding: 2px;
+	font-size: 16px;
+}
+.event_block h1 {
+    font-weight: normal;
+	display: inline;
+	font-size: 100%;
+	margin: 0;
+	color: #333333;
+}
+.event_block p {
+	font-size: 90%;
+	padding: 2px 0 2px 0;
+	margin: 7px 0px 0px 0px;
+	color: #555555;
+}
+.event_info {
+	font-size: 90%;
+	float: left;
+	min-width: 90px;
+}
+.event-action-bar .facebook-like {
+    //float: right;
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+.event-action-bar .bookmark {
+    //float: right;
+	width: 21px;
+	height: 18px;
+	opacity: 0.5;
+	vertical-align: middle;
+}
+.event-action-bar .status {
+	border-radius: 3px;
+	position: relative;
+	top: 0px;
+	font-size: 12px;
+	padding: 1px 2px 1px 2px;
+	background-color: #666666;
+	//vertical-align: middle;
+	color: #FFFFFF;
+}
+.event-action-bar .action {
+	width: 16px;
+	height: 18px;
+	opacity: 0.7;
+	vertical-align: middle;
+}
+.event-action-bar {
+	display: table-cell;
+	position: absolute; 
+	top:117px; 
+	right: 5px;
+	//float:right;
+}

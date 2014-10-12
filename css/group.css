@@ -1,0 +1,121 @@
+/* 群組頁面 */
+#search_result_group {
+	width: 1000px;
+	min-height: 751px;
+	margin-left: 28px;
+	//margin-right: auto;
+}
+#group_panel {
+	width: 900px;
+	margin: auto;
+}
+.group {
+    border-radius: 3px;
+    position: relative;
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 250px;
+	float: left;
+	//margin: 19px 0px 19px 38px;
+	overflow: hidden;
+	border: 1px solid #C1C1C1;
+}
+.panel .group {
+    margin: 10px 0px 10px 20px;
+}
+#search_result_group .group {
+    margin: 10px 0px 10px 30px;
+}
+.group-type {
+	border-radius: 2px 2px 2px 2px;
+	color: #FFFFFF;
+	float: right;
+	font-size: 13px;
+	//text-align: center;
+	padding: 1px 3px 1px 3px;
+}
+.group-image {
+    border-radius: 3px;
+	width: 190px; 
+	height: 130px; 
+	display: block;
+	border: 1px solid #C1C1C1;
+	margin: 4px 4px 0px 4px; 
+}
+.group-describe-wrapper {
+	margin: 4px 8px 6px 8px;
+	width: 184px;
+	height: 70px;
+	overflow: hidden;
+}
+.group-headline {
+	overflow: hidden;
+    color: #222222;//#575D66;
+	margin: 0px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
+	height: 36px;
+	//text-align: center;
+}
+.group-description {
+    color: #555555;
+    font-size: 13px;
+	//text-align: center;
+	margin: 2px 0px 0px 0px;
+	overflow: hidden;
+	height: 30px;
+}
+.group-member-count {
+    color: #CC0000;
+    //float: right;
+	margin-left: 8px;
+    margin-top: 2px;
+}
+.group-info-wrapper {
+    font-size: 12px;
+    color: #555555;
+}
+.group-location {
+	//padding-left: 5px;
+    //color: #CC0000;
+	//text-align: center;
+	margin-left: 8px;
+}
+.group-action-bar .facebook-like {
+    //float: right;
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+.group-action-bar .bookmark {
+    //float: right;
+	width: 22px;
+	height: 18px;
+	opacity: 0.5;
+	vertical-align: middle;
+}
+.group-action-bar .status {
+    text-align: center;
+	border-radius: 3px;
+	position: relative;
+	top: 0px;
+	font-size: 12px;
+	padding: 1px 2px 1px 2px;
+    margin-right: 2px;
+	background-color: #666666;
+	//vertical-align: middle;
+	color: #FFFFFF;
+}
+.group-action-bar .action {
+	width: 16px;
+	height: 18px;
+	opacity: 0.7;
+	vertical-align: middle;
+}
+.group-action-bar {
+	display: table-cell;
+	position: absolute; 
+	top: 232px; 
+	right: 0px;
+	//float:right;
+}
